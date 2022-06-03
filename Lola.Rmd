@@ -1,0 +1,15 @@
+---
+title: "Git Basics (IMPRS 2022 workshop)"
+author: "Daniela Palleschi"
+date: '2022-06-03'
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Excerise 1
+
+Lola is fluffy. Lola like hard boiled eggs.
+
