@@ -46,5 +46,6 @@ https://github.com/aranas/Git_Workshop_Basics2022/blob/main/X2_Remotes.md
 `git push <remote_name> <branch_name>`
 `git pull <remote_name <branch_name>>`
 
+These are some changes made in the GitHub GUI.
 
 
