@@ -9,6 +9,42 @@ output: pdf_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# Excerise 1
+## Commands
+
+**Local repositories**
+
+`git version` check whether you have git
+`pwd` print working directory
+`cd` change directory
+`git init` create repository
+`git status` check status
+`git add` add file
+`git commit -m 'comments'` commit changes to file
+
+**Remote repositories**
+
+`push` push local repository to remote repository
+`clone` copy remote repository and create local repository
+  - only do this once for each project/repository
+`pull` pull changes made to the remote repository, after you have already cloned it
+  - e.g., if a collaborator has *pushed* changes, you can then *pull*
+  
+- **merge conflicts**: when your collaborator has 'pushed' to the remote repository but you have also made changes to the file locally. You 'pull' their changes, and then git gives you a 'merge conflict' error and asks which version you want to keep
+
+## Excerise 1
+
+https://github.com/aranas/Git_Workshop_Basics2022/blob/main/X1_BasicGitCycle.md
 
 Lola is fluffy. Lola likes hard boiled eggs. Lola likes to sleep.
+
+## Exercise 2
+
+https://github.com/aranas/Git_Workshop_Basics2022/blob/main/X2_Remotes.md
+
+`git remote -v git remote add <remote_name> <url>`
+`git clone <url>`
+`git push <remote_name> <branch_name>`
+`git pull <remote_name <branch_name>>`
+
+
+
